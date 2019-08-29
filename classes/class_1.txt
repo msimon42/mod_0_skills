@@ -1,0 +1,13 @@
+
+Class: customer_order
+  Attributes:
+    menu_item(str)
+    submitted_to_kitchen?(boolean)
+    side_items(arr)
+    is_completed?(str)
+  Methods:
+    submit(changes submitted_to_kitchen? to true)
+    add_side(adds a side item to side_items array)
+    serve(changes is_completed to true)
+    modify(changes menu_item)
+    
