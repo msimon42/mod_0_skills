@@ -1,0 +1,11 @@
+
+Object: Order512
+  menu_item: "Spaghetti"
+  submitted_to_kitchen?: false
+  side_items: ["broccoli", "bread"]
+  is_completed?: false
+
+  submit: submitted_to_kitchen? = true
+  modify("pizza"): changes menu_item to "pizza"
+  add_side("salad"): adds "salad" to side_items array
+  serve: is_completed = true
