@@ -1,0 +1,10 @@
+Object: employee314
+  Title: "Server"
+  Name: "John Smith"
+  Schedule: [monday_morning, wednesday_afternoon, friday_night]
+  active?: true
+
+  change_title("manager"): Title changed to "manager"
+  change_name("Jack Smith"): Name changed to "Jack Smith"
+  add_shift("thursday_morning"): "thursday_morning" added to schedule array
+  remove: active? changed to false 
