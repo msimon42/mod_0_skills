@@ -1,0 +1,13 @@
+
+Class: Employee
+  Attributes:
+    Title(str)
+    Name(str)
+    Schedule(arr)
+    active?(boolean)
+
+  Methods:
+    Change_title(changes Title based on user input)
+    change_name(changes Name based on user input)
+    add_shift(adds shift to schedule array)
+    remove(changes active? to false)
